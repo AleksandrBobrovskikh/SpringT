@@ -13,6 +13,6 @@ public class HelloWorldServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         resp.setCharacterEncoding("UTF-8");
-        resp.getWriter().write("<h1>Hello, World111!</h1>");
+        resp.getWriter().write("<h1>Hello, World!</h1>");
     }
 }
